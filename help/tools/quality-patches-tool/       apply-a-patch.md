@@ -1,6 +1,6 @@
 ---
 title: Apply individual patches
-description: Learn how to use the [!DNL Quality Patches Tool].
+description: Learn how to apply quality patches released with the [!DNL Quality Patches Tool].
 exl-id: f9ad37e9-2d0f-4bc8-a98b-6d60b6f56d42
 role: Admin, Developers
 feature: Configuration, Install
@@ -8,9 +8,9 @@ type: Troubleshooting
 ---
 # Apply individual patches
 
-[[!DNL Quality Patches Tool]](https://github.com/magento/quality-patches) delivers optional quality fixes as individual patches to your installed Adobe Commerce application. To apply a patch, you need to have Quality Patches Tool installed with your Commerce environment. 
+[[!DNL Quality Patches Tool]](https://github.com/magento/quality-patches) delivers optional quality fixes as individual patches to your installed Adobe Commerce application. 
 
-Refer to the QPT installation steps depending on your Commerce instance (on-premises or cloud).
+To apply a patch, you need to have the tool installed in your Commerce environment. Refer to [Installing Quality Patches Tool](/install-quality-patches-tool.md) for steps specific to Adobe Commerce on-premises and on cloud infrastructures.
 
 ## Steps to apply quality patches
 
@@ -157,3 +157,7 @@ To re-apply patches:
    >[!INFO]
    >
    >When you run the `status` command, the patches that were included in the new version are no longer displayed in the table of available patches.
+
+## Related reading
+
+[Revert a quality patch](/revert-a-patch.md)
