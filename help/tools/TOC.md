@@ -34,8 +34,12 @@ feature: Configuration
     - [Managed alerts for Adobe Commerce: CPU warning alert](/help/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
 - Quality Patches Tool {#quality-patches-tool}
     - [[!DNL Quality Patches Tool]: A self-service tool for quality patches](/help/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches.md)
-    - [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html){target="_blank"}
-    - [Usage](quality-patches-tool/usage.md)
+    - [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
+    - [Overview of [!DNL Quality Patches Tool]](quality-patches-tool/overview.md)
+    - [Install [!DNL Quality Patches Tool]](quality-patches-tool/install-quality-patches-tool.md)
+    - [View available patches](quality-patches-tool/view-all-patches.md)
+    - [Apply a patch](quality-patches-tool/apply-a-patch.md)
+    - [Revert a patch](quality-patches-tool/revert-a-patch.md)
     - [Release notes](quality-patches-tool/release-notes.md)
     - Patches available in Quality Patches Tool {#patches-available-in-qpt}
         - [Overview](quality-patches-tool/patches-available-in-qpt/patches-available-in-qpt-tool-overview.md)
