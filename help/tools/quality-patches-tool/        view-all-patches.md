@@ -3,6 +3,7 @@ title: Apply patches
 description: Learn how to view patches compatible with your Adobe Commerce on cloud infrastructure project and the status.
 feature: Cloud, Upgrade
 role: Admin, Developer
+type: Troubleshooting
 exl-id: 923c1e43-45da-450f-bdfc-de84a901400d
 ---
 # View available patches
@@ -79,5 +80,5 @@ The status table contains the following types of information:
 
 ### Related reading
 
-[[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
-[Release notes](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)
+* [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
+* [Release notes](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)
