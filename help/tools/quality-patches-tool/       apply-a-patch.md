@@ -16,139 +16,99 @@ Refer to the QPT installation steps depending on your Commerce instance (on-prem
 
 ### For Adobe Commerce on-premises
 
-1. Run the following command where ACSD-XXXX is the patch ID.
+1. To apply a single patch:
+  
+    1. Run the following command where ACSD-XXXX is the patch ID.
 
-    ```
-    ./vendor/bin/magento-patches apply ACSD-XXXX
-    ```
+        ```
+        ./vendor/bin/magento-patches apply ACSD-XXXX
+        ```
 
-1. Clear the cache to see changes in your Adobe Commerce environment.
+    1. Clear the cache to see changes in your Adobe Commerce environment.
 
-     ```
-     ./bin/magento cache:clean
-     ```
+         ```
+         ./bin/magento cache:clean
+         ```
+
+1. To apply multiple patches: 
+
+    >[!WARNING]
+    >
+    >It is not recommended to use the [!DNL Quality Patches Tool] to apply large numbers of patches because it increases the complexity of your code and makes upgrading to a new version more difficult.
+
+    1. Run the following command where patch IDs (ACSD-XXXX and ACSD-YYYY) are separated with a space.
+
+        ```
+        ./vendor/bin/magento-patches apply ACSD-XXXX ACSD-YYYY
+        ```
+
+    1. Clear the cache to see changes in your Adobe Commerce environment.
+
+        ```
+        ./bin/magento cache:clean
+        ```
 
 ### For Adobe Commerce on Cloud infrastructure
 
-1. Add the `QUALITY_PATCHES` variable to the `.magento.env.yaml` file and list the required patches underneath.
+1. Apply patches in your local environment:
+   
+    1. Add the `QUALITY_PATCHES` variable to the `.magento.env.yaml` file and list the required patches underneath.
 
-   ```yaml
-   stage:
-     build:
-       QUALITY_PATCHES:
-         - ACSD-XXXXX
-         - ACSD-YYYYY
-   ```
+       ```yaml
+       stage:
+         build:
+           QUALITY_PATCHES:
+             - ACSD-XXXXX
+             - ACSD-YYYYY
+        ```
 
-1. From the project root, apply the patches.
+    1. From the project root, apply the patches.
 
-   ```bash
-   php ./vendor/bin/ece-patches apply
-   ```
+       ```bash
+       php ./vendor/bin/ece-patches apply
+       ```
 
-   The `ece-patches apply` command applies patches in the following order:
-   -  Required patches
-   -  Optional quality patches
-   -  Custom patches from the `/m2-hotfixes` directory
+       The `ece-patches apply` command applies patches in the following order:
+       
+       * Required patches
+       * Optional quality patches
+       * Custom patches from the `/m2-hotfixes` directory
 
-1. Clear the cache.
+    1. Clear the cache.
 
-   ```bash
-   php ./bin/magento cache:clean
-   ```
+       ```bash
+       php ./bin/magento cache:clean
+       ```
 
-### To apply a single patch
+1. To apply patches in a remote environment
 
-1. Run the following command where ACSD-XXXX is the patch ID:
+    >[!WARNING]
+    >
+    >It is recommend to test all patches in Staging environment before deploying to the Production environment.
 
-    ```
-    ./vendor/bin/magento-patches apply ACSD-XXXX
-    ```
+    1. Add the `QUALITY_PATCHES` variable to the `.magento.env.yaml` file and list the required patches underneath.
 
-1. Clear cache after applying patches to see changes in your Adobe Commerce environment:
+       ```yaml
+       stage:
+         build:
+           QUALITY_PATCHES:
+             - MCTEST-1002
+             - MCTEST-1003
+       ```
 
-    ```
-    ./bin/magento cache:clean
-    ```
+    1. Add, commit, and push the updated `.magento.env.yaml` file.
 
-### To apply multiple patches 
+       ```bash
+       git add .magento.env.yaml
+       ```
 
->[!WARNING]
->
->It is not recommended to use the [!DNL Quality Patches Tool] to apply large numbers of patches because it increases the complexity of your code and makes upgrading to a new version more difficult.
+       ```bash
+       git commit -m "Apply patch"
+       ```
 
-1. Run the following command where patch IDs (ACSD-XXXX and ACSD-YYYY) are separated with a space.
-
-    ```
-    ./vendor/bin/magento-patches apply ACSD-XXXX ACSD-YYYY
-    ```
-
-1. Clear the cache to see changes in your Adobe Commerce environment.
-
-    ```
-    ./bin/magento cache:clean
-    ```
-
-### To apply patches in your local environment
-
-You can apply patches manually in a local environment and test them before you deploy.
-
-1. Add the `QUALITY_PATCHES` variable to the `.magento.env.yaml` file and list the required patches underneath.
-
-   ```yaml
-   stage:
-     build:
-       QUALITY_PATCHES:
-         - ACSD-XXXXX
-         - ACSD-YYYYY
-   ```
-
-1. From the project root, apply the patches.
-
-   ```bash
-   php ./vendor/bin/ece-patches apply
-   ```
-
-   The `ece-patches apply` command applies patches in the following order:
-   -  Required patches
-   -  Optional quality patches
-   -  Custom patches from the `/m2-hotfixes` directory
-
-1. Clear the cache.
-
-   ```bash
-   php ./bin/magento cache:clean
-   ```
-
-### To apply patches in a remote environment
-
->[!WARNING]
->
->It is recommend to test all patches in Staging environment before deploying to the Production environment.
-
-1. Add the `QUALITY_PATCHES` variable to the `.magento.env.yaml` file and list the required patches underneath.
-
-   ```yaml
-   stage:
-     build:
-       QUALITY_PATCHES:
-         - MCTEST-1002
-         - MCTEST-1003
-   ```
-
-1. Add, commit, and push the updated `.magento.env.yaml` file.
-
-   ```bash
-   git add .magento.env.yaml
-   ```
-
-   ```bash
-   git commit -m "Apply patch"
-   ```
-
-   ```bash
-   git push origin <branch-name>
-   ```
+       ```bash
+       git push origin <branch-name>
+       ```
 
 ## Latest patch fixes
 
