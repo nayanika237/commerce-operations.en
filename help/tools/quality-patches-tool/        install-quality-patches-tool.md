@@ -1,11 +1,11 @@
 ---
-title: 'Getting started with [!DNL Quality Patches Tool]'
+title: 'Install [!DNL Quality Patches Tool]'
 description: 'With every release of a new QPT version, a set of quality patches are introduced to fix known issues or bugs in your Adobe Commerce implementation. Each patch is compatible with specific versions of Adobe Commerce.'
 feature: Tools and External Services
 role: Admin, Developer
 exl-id: a83d3834-841d-4b90-b40a-fda985a85452
 ---
-# Getting started with [!DNL Quality Patches Tool(QPT)]
+# Install [!DNL Quality Patches Tool(QPT)]
 
 With every release of a new QPT version, a set of quality patches are introduced to fix known issues or bugs in your Adobe Commerce implementation. Each patch is compatible with specific versions of Adobe Commerce. 
 
