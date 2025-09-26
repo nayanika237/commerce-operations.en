@@ -23,13 +23,12 @@ See [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.a
 ### For Adobe Commerce on-premises 
 
 1. Install the QPT package using [Composer](https://getcomposer.org/).
-1. Add the `magento/quality-patches` Composer package to your `composer.json` file:
 
     ```bash
     composer require magento/quality-patches
     ```
 
-1. Verify the available commands:
+1. Verify the supported commands:
 
     ```bash
     vendor/bin/magento-patches --help
@@ -37,7 +36,7 @@ See [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.a
 
 ### For Adobe Commerce on cloud infrastructures
 
-QPT is included with the ece-tools package. No additional installation is required.
+QPT is included with the `ece-tools` package. No additional installation is required.
 
 Verify that QPT is available:
 
