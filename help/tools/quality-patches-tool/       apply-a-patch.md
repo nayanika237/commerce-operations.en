@@ -140,6 +140,24 @@ To re-apply patches:
    >
    >When you run the `status` command, the patches that were included in the new version are no longer displayed in the table of available patches.
 
+## Apply latest patch fixes
+
+Adobe Commerce periodically releases new individual patches. Update to the latest version of [!DNL Quality Patches Tool] to get new individual patches:
+
+```bash
+composer update magento/quality-patches
+```
+
+View the added patches:
+
+```bash
+./vendor/bin/magento-patches status
+```
+
+>[!TIP]
+>
+>Newly add patches display at the bottom of the table.
+
 ## Related reading
 
 [Revert a quality patch](/revert-a-patch.md)
