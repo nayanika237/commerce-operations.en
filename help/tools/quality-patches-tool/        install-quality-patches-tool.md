@@ -46,5 +46,5 @@ php ./vendor/bin/ece-patches --help
 
 ### Related reading
 
-* [View individual patches]
+* [View individual patches](help/tools/quality-patches-tool/        view-all-patches.md)
 * [Apply individual patches]
