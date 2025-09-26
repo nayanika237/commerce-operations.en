@@ -16,7 +16,7 @@ Refer to the QPT installation steps depending on your Commerce instance (on-prem
 
 ### For Adobe Commerce on-premises
 
-1. To apply a single patch:
+1. Apply a single patch:
   
     1. Run the following command where ACSD-XXXX is the patch ID.
 
@@ -30,7 +30,7 @@ Refer to the QPT installation steps depending on your Commerce instance (on-prem
          ./bin/magento cache:clean
          ```
 
-1. To apply multiple patches: 
+1. Apply multiple patches: 
 
     >[!WARNING]
     >
@@ -80,7 +80,7 @@ Refer to the QPT installation steps depending on your Commerce instance (on-prem
        php ./bin/magento cache:clean
        ```
 
-1. To apply patches in a remote environment
+1. Apply patches in a remote environment
 
     >[!WARNING]
     >
