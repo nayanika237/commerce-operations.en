@@ -110,24 +110,6 @@ To apply a patch, you need to have the tool installed in your Commerce environme
        git push origin <branch-name>
        ```
 
-## Latest patch fixes
-
-Adobe Commerce periodically releases new individual patches. Update to the latest version of [!DNL Quality Patches Tool] to get new individual patches:
-
-```bash
-composer update magento/quality-patches
-```
-
-View the added patches:
-
-```bash
-./vendor/bin/magento-patches status
-```
-
->[!TIP]
->
->Newly add patches display at the bottom of the table.
-
 ## Steps to re-apply patches after an upgrade
 
 When you upgrade to a new version of Adobe Commerce, you must re-apply the patches that are not included in the new version. The best practice is to apply patches one at a time.
