@@ -80,7 +80,7 @@ To apply a patch, you need to have the tool installed in your Commerce environme
        php ./bin/magento cache:clean
        ```
 
-1. Apply patches in a remote environment
+1. Apply patches in a remote environment:
 
     >[!WARNING]
     >
