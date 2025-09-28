@@ -12,12 +12,20 @@ With every release of a new QPT version, a set of quality patches are introduced
 
 See [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) for a complete list of released patches and their supported Adobe Commerce versions.
 
+To view patches that are compatible with your Adobe Commerce environment, follow the steps below.
+
 ## Steps to view available patches and status
 
-Run the command: 
+For on cloud infrastructure, run the command: 
 
 ```bash
 php ./vendor/bin/ece-patches status
+```
+
+For on-premises installation, run the command:
+
+```
+./vendor/bin/magento-patches status
 ```
 
 <u>Sample response</u>:
@@ -53,9 +61,6 @@ You can find more detailed information about patches on https://support.magento.
 ║                │                                                 │          │             │  - MC-2                         ║
 ║                │                                                 │          │             │ Affected components:            ║
 ║                │                                                 │          │             │  - magento/module-cms           ║
-╟────────────────┼─────────────────────────────────────────────────┼──────────┼─────────────┼─────────────────────────────────╢
-║ N/A            │ ../m2-hotfixes/MDVA_custom__2.3.5_ce.patch      │ Custom   │ N/A         │ Affected components:            ║
-║                │                                                 │          │             │  - magento/module-framework     ║
 ╚════════════════╧═════════════════════════════════════════════════╧══════════╧═════════════╧═════════════════════════════════╝
 Magento 2 Enterprise Edition, version 2.3.5.0
 ```
@@ -63,9 +68,9 @@ Magento 2 Enterprise Edition, version 2.3.5.0
 The status table contains the following types of information:
 
 * **Type**:
-    * `Optional`—All patches from the Quality Patches Tool and the Cloud Patches package are optional for Adobe Commerce and Magento Open Source installations. For Adobe Commerce on cloud infrastructure, all patches are optional.
+    * `Optional`—All patches from the Quality Patches Tool are optional for Adobe Commerce and Magento Open Source installations.
     * `Required`—All patches from the Cloud Patches for Commerce package are required for Cloud customers.
-    * `Deprecated`—The individual patch is marked as deprecated and we recommend reverting it if you have applied it. After you revert a deprecated patch, it will no longer be displayed in the status table.
+    * `Deprecated`—The individual patch is marked as deprecated and we recommend [reverting](/revert-a-patch.md) it if you have applied it. After you revert a deprecated patch, it will no longer be displayed in the status table.
     * `Custom`—All patches from the `m2-hotfixes` directory.
 
 * **Status**:
