@@ -1,7 +1,7 @@
 ---
 title: Apply patches
-description: Learn how to view patches compatible with your Adobe Commerce on cloud infrastructure project and the status.
-feature: Cloud, Upgrade
+description: Learn how to view patches compatible with your Adobe Commerce project and the status.
+feature: Tools and External Services
 role: Admin, Developer
 type: Troubleshooting
 exl-id: 923c1e43-45da-450f-bdfc-de84a901400d
@@ -68,22 +68,22 @@ Magento 2 Enterprise Edition, version 2.3.5.0
 The status table contains the following types of information:
 
 * **Type**:
-    * `Optional`—All patches from the Quality Patches Tool are optional for Adobe Commerce and Magento Open Source installations.
-    * `Required`—All patches from the Cloud Patches for Commerce package are required for Cloud customers.
-    * `Deprecated`—The individual patch is marked as deprecated and we recommend [reverting](/revert-a-patch.md) it if you have applied it. After you revert a deprecated patch, it will no longer be displayed in the status table.
-    * `Custom`—All patches from the `m2-hotfixes` directory.
+    * `Optional`— All patches from the Quality Patches Tool are optional for Adobe Commerce installations.
+    * `Required`— All patches from the Cloud Patches for Commerce package are required for Cloud customers.
+    * `Deprecated`— The individual patch is marked as deprecated and we recommend [reverting](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/%20%20%20%20%20revert-a-patch.md) it if you have applied it. After you revert a deprecated patch, it will no longer be displayed in the status table.
 
 * **Status**:
-    * `Applied`—The patch has been applied.
-    * `Not applied`—The patch has not been applied.
-    * `N/A`—The status of the patch cannot be defined due to conflicts.
+    * `Applied`— The patch has been applied.
+    * `Not applied`— The patch has not been applied.
+    * `N/A`— The status of the patch cannot be defined due to conflicts.
 
 * **Details**:
-    * `Affected components`—The list of affected modules.
-    * `Required patches`—The list of required patches (dependencies).
-    * `Recommended replacement`—The patch that is a recommended replacement for a deprecated patch.
+    * `Affected components`— The list of affected modules.
+    * `Required patches`— The list of required patches (dependencies).
+    * `Recommended replacement`— The patch that is a recommended replacement for a deprecated patch.
 
 ### Related reading
 
+* [Apply a patch](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/%20%20%20%20%20%20%20apply-a-patch.md)
 * [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
-* [Release notes](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)
+* [Release notes](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/release-notes.md)
