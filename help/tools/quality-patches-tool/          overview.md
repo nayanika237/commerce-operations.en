@@ -17,7 +17,7 @@ These patches fix known issues and bugs to improve the stability, security, and 
 
 ## When to use [!DNL Quality Patches Tool]
 
-The Quality Patches Tool (QPT) is recommended when you need to apply a targeted fix to a known issue in Adobe Commerce without modifying core files.
+The [!DNL Quality Patches Tool] (QPT) is recommended when you need to apply a targeted fix to a known issue in Adobe Commerce without modifying core files.
 
 <details><summary><b>Use the QPT when</b></summary>
 
@@ -25,9 +25,10 @@ The Quality Patches Tool (QPT) is recommended when you need to apply a targeted 
 * You need to apply a small, isolated fix without introducing larger system changes.
 * You require the option to revert a patch if it causes unexpected behavior.
 * You want to manage optional fixes separately from mandatory Cloud patches.
+  
   >[!NOTE]
   >
-  >The Cloud Patches for Commerce package delivers required patches with critical fixes. Whereas, Quality Patches deliver optional, low-impact quality fixes as individual patches that do not contain backward incompatible changes. Refer to [Apply patches](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) in the Commerce on Cloud guide for more information.
+  >The Cloud Patches for Commerce package delivers required patches with critical fixes. Whereas, Quality Patches deliver optional, low-impact quality fixes as individual patches that do not contain backward incompatible changes. Refer to [Apply cloud patches](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) in the Commerce on Cloud guide for more information.
 </details>
 
 <details><summary><b>Avoid using the QPT when</b></summary>
@@ -41,5 +42,5 @@ The Quality Patches Tool (QPT) is recommended when you need to apply a targeted 
 
 ## Related reading
 
-* [Installing [!DNL Quality Patches Tool]](/help/tools/quality-patches-tool/usage.md)
-* [[!DNL Quality Patches Tool] release notes](/help/tools/quality-patches-tool/release-notes.md)
+* [Installing [!DNL Quality Patches Tool]](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/%20%20%20%20%20%20%20%20install-quality-patches-tool.md)
+* [[!DNL Quality Patches Tool] release notes](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/release-notes.md)
