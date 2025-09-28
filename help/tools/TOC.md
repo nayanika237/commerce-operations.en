@@ -34,10 +34,10 @@ feature: Configuration
     - [Managed alerts for Adobe Commerce: CPU warning alert](/help/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
 - Quality Patches Tool {#quality-patches-tool}
     - [Overview of [!DNL Quality Patches Tool]](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/%20%20%20%20%20%20%20%20%20%20overview.md)
-    - [Install [!DNL Quality Patches Tool]]([quality-patches-tool/install-quality-patches-tool.md](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/%20%20%20%20%20%20%20%20install-quality-patches-tool.md)
+    - [Install [!DNL Quality Patches Tool]](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/%20%20%20%20%20%20%20%20install-quality-patches-tool.md)
     - [View available patches with [!DNL Quality Patches Tool]](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/%20%20%20%20%20%20%20%20view-all-patches.md)
     - [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
-    - [Apply a patch with [!DNL Quality Patches Tool]]([quality-patches-tool/apply-a-patch.md](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/%20%20%20%20%20%20%20apply-a-patch.md)
+    - [Apply a patch with [!DNL Quality Patches Tool]](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/%20%20%20%20%20%20%20apply-a-patch.md)
     - [Revert a patch [!DNL Quality Patches Tool]](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/%20%20%20%20%20revert-a-patch.md)
     - [Release notes]([quality-patches-tool/release-notes.md](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/release-notes.md)
     - Patches available in Quality Patches Tool {#patches-available-in-qpt}
