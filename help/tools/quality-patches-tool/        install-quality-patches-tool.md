@@ -1,13 +1,13 @@
 ---
 title: 'Install [!DNL Quality Patches Tool]'
-description: 'With every release of a new QPT version, a set of quality patches are introduced to fix known issues or bugs in your Adobe Commerce implementation. Each patch is compatible with specific versions of Adobe Commerce.'
+description: 'Install the latest version of the [!DNL Quality Patches Tool] to getversion, a set of quality patches are introduced to fix known issues or bugs in your Adobe Commerce implementation.'
 feature: Tools and External Services
 role: Admin, Developer
 exl-id: a83d3834-841d-4b90-b40a-fda985a85452
 ---
-# Install [!DNL Quality Patches Tool(QPT)]
+# Install [!DNL Quality Patches Tool (QPT)]
 
-With every release of a new QPT version, a set of quality patches are introduced to fix known issues or bugs in your Adobe Commerce implementation. Each patch is compatible with specific versions of Adobe Commerce. 
+With every release of a new QPT version, a set of quality patches are introduced to fix known issues or bugs in your Adobe Commerce implementation. Each patch is compatible with specific versions of Adobe Commerce. Update to the latest version of QPT to get the latest patches. 
 
 See [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) for a complete list of released patches and their supported Adobe Commerce versions.
 
@@ -46,5 +46,5 @@ php ./vendor/bin/ece-patches --help
 
 ### Related reading
 
-* [View individual patches](help/tools/quality-patches-tool/        view-all-patches.md)
-* [Apply individual patches]
+* [View individual patches](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/%20%20%20%20%20%20%20%20view-all-patches.md)
+* [Apply individual patches](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/%20%20%20%20%20%20%20apply-a-patch.md)
