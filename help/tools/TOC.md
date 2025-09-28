@@ -39,7 +39,7 @@ feature: Configuration
     - [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
     - [Apply a patch with [!DNL Quality Patches Tool]](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/%20%20%20%20%20%20%20apply-a-patch.md)
     - [Revert a patch [!DNL Quality Patches Tool]](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/%20%20%20%20%20revert-a-patch.md)
-    - [Release notes]([quality-patches-tool/release-notes.md](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/release-notes.md)
+    - [Release notes](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/release-notes.md)
     - Patches available in Quality Patches Tool {#patches-available-in-qpt}
         - [Overview](quality-patches-tool/patches-available-in-qpt/patches-available-in-qpt-tool-overview.md)
         - v1.1.0 {#v1-1-0}
