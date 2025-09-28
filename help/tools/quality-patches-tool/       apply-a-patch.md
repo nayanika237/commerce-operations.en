@@ -1,16 +1,16 @@
 ---
-title: Apply individual patches
+title: Apply a patche with the [!DNL Quality Patches Tool]
 description: Learn how to apply quality patches released with the [!DNL Quality Patches Tool].
 exl-id: f9ad37e9-2d0f-4bc8-a98b-6d60b6f56d42
 role: Admin, Developers
 feature: Configuration, Install
 type: Troubleshooting
 ---
-# Apply individual patches
+#  Apply a patch with the [!DNL Quality Patches Tool]
 
-[[!DNL Quality Patches Tool]](https://github.com/magento/quality-patches) delivers optional quality fixes as individual patches to your installed Adobe Commerce application. 
+The [!DNL Quality Patches Tool] delivers optional quality fixes as individual patches to your installed Adobe Commerce application. 
 
-To apply a patch, you need to have the tool installed in your Commerce environment. Refer to [Installing Quality Patches Tool](/install-quality-patches-tool.md) for steps specific to Adobe Commerce on-premises and on cloud infrastructures.
+To apply a patch, you need to have the tool installed in your Commerce environment. Refer to [Installing Quality Patches Tool](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/%20%20%20%20%20%20%20%20install-quality-patches-tool.md) for steps specific to Adobe Commerce on-premises and on cloud infrastructures.
 
 ## Steps to apply quality patches
 
@@ -122,7 +122,7 @@ To re-apply patches:
    composer update magento/quality-patches.
    ```
 
-1. Open the list of previously applied patches. Refer to [View applied patches]().
+1. Open the list of previously applied patches. Refer to [View applied patches](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/%20%20%20%20%20%20%20%20view-all-patches.md).
 
 1. Apply the patches:
 
@@ -160,4 +160,4 @@ View the added patches:
 
 ## Related reading
 
-[Revert a quality patch](/revert-a-patch.md)
+[Revert a quality patch](https://github.com/nayanika237/commerce-operations.en/blob/main/help/tools/quality-patches-tool/%20%20%20%20%20revert-a-patch.md)
