@@ -1,13 +1,14 @@
 ---
 title: 'Install [!DNL Quality Patches Tool]'
-description: 'Install the latest version of the [!DNL Quality Patches Tool] to getversion, a set of quality patches are introduced to fix known issues or bugs in your Adobe Commerce implementation.'
+description: 'Learn how to install the [!DNL Quality Patches Tool] to self-serve bug fixes in your Adobe Commerce implementation.'
 feature: Tools and External Services
 role: Admin, Developer
+type: Troubleshooting
 exl-id: a83d3834-841d-4b90-b40a-fda985a85452
 ---
 # Install [!DNL Quality Patches Tool (QPT)]
 
-With every release of a new QPT version, a set of quality patches are introduced to fix known issues or bugs in your Adobe Commerce implementation. Each patch is compatible with specific versions of Adobe Commerce. Update to the latest version of QPT to get the latest patches. 
+Adobe Commerce periodically releases new individual patches. Install [!DNL Quality Patches Tool] or update to the latest version to get new individual patches. 
 
 See [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) for a complete list of released patches and their supported Adobe Commerce versions.
 
