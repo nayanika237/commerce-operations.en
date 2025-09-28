@@ -2,11 +2,11 @@
 title: Revert a quality patch with [!DNL Quality Patches Tool] 
 description: Learn how to revert previously applied quality patches with [!DNL Quality Patches Tool]. 
 exl-id: f9ad37e9-2d0f-4bc8-a98b-6d60b6f56d42
-feature: Configuration, Install
+feature: Tools and External Services
 role: Admin, Developer
 type: Troubleshooting
 ---
-# Revert a quality patch [!DNL Quality Patches Tool]
+# Revert a quality patch with [!DNL Quality Patches Tool]
 
 You can revert all previously applied patches or selective patches to safely roll back changes if they cause issues, are no longer needed, or conflicts with your Adobe Commerce version.
 
