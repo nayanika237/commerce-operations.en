@@ -1,5 +1,5 @@
 ---
-title: Apply a patche with the [!DNL Quality Patches Tool]
+title: Apply a patch with the [!DNL Quality Patches Tool]
 description: Learn how to apply quality patches released with the [!DNL Quality Patches Tool].
 exl-id: f9ad37e9-2d0f-4bc8-a98b-6d60b6f56d42
 role: Admin, Developers
